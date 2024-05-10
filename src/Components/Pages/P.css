@@ -1,0 +1,212 @@
+.row{
+    display: flex;
+}
+
+.background-container {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 70vh;
+  }
+  .background-container:nth-child(odd) {
+    background-image: url('/src/assets/university1.jpg');
+  }
+  .background-container:nth-child(2n) {
+    background-image: url('/src/assets/tanzania.jpg');
+  }
+  .background-container:nth-child(3n) {
+    background-image: url('/src/assets/china4.jpg');
+  }
+
+.reach{
+    color: goldenrod;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.international h5{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0cqb;
+    color: hsl(213, 91%, 36%);
+    margin-bottom: 10px;
+    
+    } 
+ .international ul li{
+    margin-top: 10px;
+ }
+ 
+ .international-img img{ 
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 500px !important;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.education-text{
+    
+}
+/* admission page */
+.undergraduate img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: 10px;
+    object-fit: cover;
+}
+.i_students{
+    display: flex;
+}
+
+
+  .content { 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for content */
+  }
+  
+  .apply-info{
+  width: 40%;
+  padding: 5px;
+  text-wrap: wrap;
+  } 
+  
+  .appli  h2, .undergraduate h3, .inter h3, .fees h3{
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0cqb;
+  color: hsl(213, 91%, 36%);
+  margin-bottom: 50px;
+  
+  } 
+  .undergraduate h3, .inter h3, .fees h3{
+  font-size: 20px;
+  padding: 0px;
+  } 
+  .appli .row{
+  display: flex;
+  margin: 30px;
+  }
+  
+  
+  .course-path{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: hsl(213, 91%, 36%);
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.8);
+  }
+  .course-path a .fa-solid{
+  
+  font-size: 70px;
+  color: #fff;
+  margin: 10px;
+  }
+  .course-path a p{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 200;
+  margin-left: 10px;
+  
+  }
+  
+  .process {
+  display: flex !important;
+  margin: 30px;
+  }
+  .roadmap{
+  display: flex;
+  margin: 30px;
+  }
+  .undergraduate-programs{
+  display: flex;
+  padding: 10px;
+  }
+  .undergraduate{
+  width: 33.3%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 4px solid rgba(0,0,0,.125);
+  height: auto;
+  
+  }
+  .undergraduate:hover{
+  background-color:  hsl(0, 94%, 54%);/*hsl(213, 91%, 36%);*/
+  color: #fff;
+  }
+  .undergraduate p{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+
+
+
+.international{
+    width: 100%;
+    padding: 3%;
+}
+.inter-img{
+    width: 100%;
+}
+
+.cost{
+    padding: 20px;
+    text-wrap: wrap;
+    font-size: 16px;
+}
+.here{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    color: hsl(213, 91%, 36%) ;
+
+}
+.search-button{
+    margin-top: 40px;
+    align-items:center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input-search{
+    border: 2px solid hsl(213, 91%, 36%);
+    height: 40px;
+}
+
+
+.search-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.input-search {
+    border: 2px solid hsl(213, 91%, 36%);
+    height: 40px;
+    width: 100%; 
+}
+.inter{
+    margin-top: 50px;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+
+
+    
+  .header{
+    background-color: black;
+    height: 80px;
+    padding: 2px; 
+}
+.house-info h3{
+  
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.housing{
+    background-image: url(/static/images/house18.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    height: 100vh;
+    object-fit: cover;
+ 
+}
+
+.contact-team{
+  margin-top: 100px;
+}
+.background-housing:nth-child(odd) {
+background-image: url('/static/images/house14.jpg');
+}
+.housing-container .row{
+  display: flex;
+}
+.housing-container{
+  margin-top: 50px;
+}
+.housing-container .col-md-6{
+  width: 50%;
+
+  border-radius: 10px;
+}
+
+input[type=text]{
+  text-align: center;
+  
+}
+.cap{
+  text-transform: capitalize;
+}
+.housing-detail{
+  padding: 20px;
+  transition: all .5s ease-in-out;
+  
+}
+.housing-detail h4{
+  color: hsl(0, 88%, 23%);
+  margin: 10px;
+}
+.house-form{
+padding: 20px;
+background-color: hsl(213, 91%, 36%);
+border-radius: 10px;
+}
+.house-form h3{
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+.shelter-contact{
+  background-color: hsl(0, 94%, 54%);
+}
+.er{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.form-control{
+  background-color: #fff;
+   
+   border-radius: 0%;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   text-align: center;
+
+}
+.area{
+  height: 100px;
+ 
+}
+
+
+@media (max-width: 650px) {
+  .housing-container .row{
+    display: block;
+  }
+  .housing-container .col-md-6 {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
