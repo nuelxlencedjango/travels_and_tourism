@@ -17,15 +17,15 @@ const Carousel = () => {
 
     useEffect(() => {
         const carouselElement = carouselRef.current;
-        const carouselInstance = new bootstrap.Carousel(carouselElement, {
-            interval: 20000, 
-            pause: 'hover',
-            keyboard: true
-        });
+        //const carouselInstance = new bootstrap.Carousel(carouselElement, {
+           // interval: 20000, 
+           // pause: 'hover',
+            //keyboard: true
+        //});
 
-        return () => {
-              carouselInstance.dispose();
-          };
+        //return () => {
+             // carouselInstance.dispose();
+         // };
       
     }, []);
 
