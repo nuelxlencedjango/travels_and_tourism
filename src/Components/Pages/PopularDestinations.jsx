@@ -27,29 +27,32 @@ const PopularDestination = () => {
     { id:10, title: "Beijing, China", img: china, text: "Beijing is the capital city of China and one of the world's oldest cities, renowned for its rich history, iconic landmarks such as the Great Wall and Forbidden City, and modern skyscrapers." }
   ];
 
-  const settings = {
-    dots: true,
-    infinite: true, // Enable continuous looping
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, 
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+      ]
+    };
   
 
   return (
@@ -59,8 +62,10 @@ const PopularDestination = () => {
         <p>Our popular destinations include United Kingdom, France, Republic of Togo, Benin Republic, South Africa, United States, Ghana, Kenya, Egypt, Singapore, China, Dubai, Abu Dhabi, Australia, Switzerland, Spain, Italy (and other Schengen States), Brazil and Canada. We can also package other destination of choice to meet your specific needs.</p>
    
       </div>
+      <div className="slider-wrapper">
       <Slider {...settings}>
         {destinations.map((destination) => (
+          <div className='destination-container'>
           <div key={destination.id} className="destination-slide">
             <img src={destination.img} alt={destination.title} className="destination-image" />
             <div className="destination-details">
@@ -68,8 +73,10 @@ const PopularDestination = () => {
               <p className="destination-text">{destination.text}</p>
                </div>
           </div>
+          </div>
         ))}
       </Slider>
+      </div>
     </div>
   );
   

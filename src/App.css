@@ -417,13 +417,76 @@ nav .menu span{
     
     position: absolute;
     top: 5%;
-    left: 0;
+    left: 0 !important;
     z-index: 1;
     margin-top: 20px !important;
     
 
   }
   
+}
+
+@media (max-width: 372px) {
+  .carousel-list{
+    
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+    margin-top: 10px !important;
+    
+  }
+}
+
+@media (max-width: 320px) {
+
+
+.contact{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: flex-end;
+ 
+}
+.btn{
+  cursor: pointer !important;
+}
+.contact-btn{
+  background-color: goldenrod !important;
+  font-size: 20px !important;
+  border: goldenrod !important;
+ 
+}
+.carousel-list li {
+  opacity: 1;
+  transform: translateZ(0);
+  font-size: 24px;
+}
+}
+@media (max-width: 300px) {
+  .carousel-list{
+    
+    position: absolute !important;
+    top: 0 !important;
+    left: -30px !important;
+    z-index: 1;
+    margin-top: 10px !important;
+    
+  }
+}
+
+
+
+@media (max-width: 372px) {
+  .carousel-list{
+    
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+    margin-top: 10px !important;
+    
+  }
 }
 
 .our-services .col-md-4{
@@ -499,8 +562,20 @@ nav .menu span{
 
 
 
+.slider-wrapper {
+  max-width: 100%;
+  margin: 20px !important; 
 
+}
 
+/* PopularDestination.css */
+.slick-slider {
+  width: 100% !important;
+}
+.destination-container{
+  max-width: 100% !important;
+ padding: 10px;
+ }
 
 .destination{
   margin: 50px;
@@ -524,13 +599,12 @@ nav .menu span{
   width: 600px;
 }
 
-
-/* PopularDestination.css */
 .destination-slide {
   text-align: center;
   padding: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .destination-slide img {
   width: 100%;
@@ -565,7 +639,15 @@ nav .menu span{
   top: -150px;
 }
 
-
+@media screen and (max-width: 715px) {
+  .destination {
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+}
 
 
 
