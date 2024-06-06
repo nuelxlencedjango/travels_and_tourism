@@ -128,7 +128,7 @@ const Carousel = () => {
           
             <div className="whatsapp-img">
   <div className="int-img">
-    <a href="https://wa.me/2348023619170" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+    <a href="https://wa.me/2347062186199" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
       <img src={whatsapp} alt="WhatsApp" className="whatsapp-icon" />
     </a>
   </div>
