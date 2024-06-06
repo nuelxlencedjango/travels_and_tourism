@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 import Products from './Products';
 import PopularDestinations from './PopularDestinations';
 
+import whatsapp from '../../assets/whatsapp_image.png';
+
+
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 
@@ -112,7 +115,7 @@ const Carousel = () => {
 
                      </div>
                 </div>
-            </div>
+            </div> 
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
@@ -121,6 +124,16 @@ const Carousel = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
+          
+          
+            <div className="whatsapp-img">
+  <div className="int-img">
+    <a href="https://wa.me/2348023619170" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+      <img src={whatsapp} alt="WhatsApp" className="whatsapp-icon" />
+    </a>
+  </div>
+</div>
+
 
           <Products />
           <PopularDestinations />

@@ -650,7 +650,16 @@ nav .menu span{
 }
 
 
+h6 {
 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #2c3e50; 
+    margin-bottom: 10px; 
+    display: inline-block; /* Ensure the border stops where the text stops */
+    border-bottom: 2px solid #2c3e50; /* Underline to highlight the heading */
+    padding-bottom: 5px;
+}
 
 /*.destination-slide:hover {
   transform: scale(1.05);
@@ -671,6 +680,45 @@ nav .menu span{
 .destination-slide:hover .destination-details {
   background-color: rgba(255, 255, 255, 0.8);
 }*/
+
+
+
+
+.whatsapp-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  border-radius: 50%; 
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.int-img {
+  display: inline-block;
+}
+
+.whatsapp-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; 
+}
+
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s; 
+}
+
+.whatsapp-link:hover .whatsapp-icon {
+  transform: scale(1.1); 
+}
 
 
 

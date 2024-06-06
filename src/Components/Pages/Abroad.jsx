@@ -26,39 +26,64 @@ const ParallaxPage = () => {
                              <h5>Why Choose Us For Your School Admission?</h5>
                          <div className="international_reason">
                           <ul>
-                            <li>Expert Guidance: Our team of seasoned professionals boasts extensive knowledge of 
+                            <li>
+                              <h6>Expert Guidance</h6>
+                              <p>Our team of seasoned professionals boasts extensive knowledge of 
                               the intricacies involved in securing admissions to foreign universities. 
                               We provide personalized assistance at every step of the process, from university 
-                              selection to application submission.</li>
-                            <li>University Selection: Gain access to our extensive network of partner universities, 
-                               renowned for their academic excellence and global reputation.</li>  
-                            <li>Diverse Destinations: From bustling metropolises to quaint college towns, we offer 
+                              selection to application submission.</p>
+                              </li>
+
+                            <li>
+                              <h6>Selection</h6> 
+                               <p>Gain access to our extensive network of partner universities, 
+                               renowned for their academic excellence and global reputation.</p>
+                               </li>  
+                            <li>
+                              <h6>Diverse Destinations</h6>
+                              <p>From bustling metropolises to quaint college towns, we offer 
                                access to a wide array of destinations worldwide. Whether you dream of studying 
                                in the heart of Europe, the vibrant cities of North America, or the cultural hubs 
-                               of Asia, we have you covered.</li>  
+                               of Asia, we have you covered.</p>
+                               </li>  
 
-
- 
-
-                              <li>Customized Itineraries: No two educational journeys are alike. We understand that each student has 
+                              <li>
+                                <h6>Customized Itineraries</h6>
+                                  <p>No two educational journeys are alike. We understand that each student has 
                                   unique aspirations and requirements. That's why we work closely with you to 
                                   create bespoke travel itineraries that align with your academic goals, 
-                                  preferences, and budget.</li>  
-                                <li>Comprehensive Support: Beyond assisting with admissions, we provide comprehensive 
+                                  preferences, and budget.</p>
+                                  </li>  
+                                <li>
+                                  <h6>Comprehensive Support</h6> 
+                                  <p>Beyond assisting with admissions, we provide comprehensive 
                                     support to ensure a seamless transition to your new academic environment. 
                                      From visa procurement to accommodation arrangements, we handle all the logistical 
-                                      details, allowing you to focus on your studies.</li>  
-                                <li>Application Assistance: Receive expert guidance on the application process, including 
-                                    document preparation, essay writing, and interview preparation.</li>  
-                                <li>Visa Support: Navigate the visa application process with ease, as our experienced team 
+                                      details, allowing you to focus on your studies.</p>
+                                      </li>  
+                                <li>
+                                  <h6>Application Assistance</h6> 
+                                  <p>Receive expert guidance on the application process, including 
+                                    document preparation, essay writing, and interview preparation.</p>
+                                    </li>  
+                                <li>
+                                  <h6>Visa Support</h6>
+                                   <p>Navigate the visa application process with ease, as our experienced team 
                                     assists you in compiling the necessary documentation and scheduling embassy 
-                                     appointments.</li>  
-                                 <li>Travel Arrangements: Sit back and relax as we take care of all your travel 
+                                     appointments.</p>
+                                     </li>  
+                                 <li>
+                                  <h6>Travel Arrangements</h6>
+                                     <p>Sit back and relax as we take care of all your travel 
                                       arrangements, from flights and accommodation to airport transfers and local 
-                                      transportation.</li>  
-<                                  li>Pre-departure Orientation: Prepare for your overseas adventure with our 
+                                      transportation.</p>
+                                      </li>  
+<                                  li> 
+                                     <h6>Pre-departure Orientation</h6>
+                                      <p>Prepare for your overseas adventure with our 
                                       comprehensive pre-departure orientation sessions, covering topics such as 
-                                      cultural adjustment, academic expectations, and safety guidelines.</li>  
+                                      cultural adjustment, academic expectations, and safety guidelines.</p>
+                                      </li>  
                                 </ul>
                             </div>
                     </div>
@@ -88,7 +113,7 @@ const ParallaxPage = () => {
            
             <div className="inter-img">
               <div className="international-img">
-                <img src={img} alt="" />
+                <img src={student} alt="" />
               </div>
             </div>
 
@@ -322,10 +347,13 @@ const ParallaxPage = () => {
                 <div className="international_reason">
               <ul>
 
-                <li>Expert Guidance: Our team of seasoned professionals boasts extensive knowledge of 
+                <li>
+                  <h5>Expert Guidance </h5>
+                  <p>Our team of seasoned professionals boasts extensive knowledge of 
                   the intricacies involved in securing admissions to foreign universities. 
                   We provide personalized assistance at every step of the process, from university 
-                  selection to application submission.</li>
+                  selection to application submission.</p>
+                  </li>
                 <li>University Selection: Gain access to our extensive network of partner universities, 
                   renowned for their academic excellence and global reputation.</li>  
                 <li>Diverse Destinations: From bustling metropolises to quaint college towns, we offer 
