@@ -52,7 +52,7 @@ const Products = () => {
                     </div>
                 </div>
            </div>
-           <div className="col-md-4" data-aos="fade-rightß">
+           <div className="col-md-4" data-aos="fade-right">
                  <div className="card" style={{width: '100%'}}>
                     <img src={room} className="card-img-top" alt="..." />
                     <div className="card-body">

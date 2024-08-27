@@ -575,6 +575,7 @@ nav .menu span{
 .destination-container{
   max-width: 100% !important;
  padding: 10px;
+ border: 0 4px 8px 12px red;
  }
 
 .destination{
@@ -722,3 +723,134 @@ h6 {
 
 
 
+
+
+/*.scroll-container {
+  width: 100%;
+  height: 800px; 
+  overflow-y: scroll; 
+  border: 1px solid red;
+}
+
+.scroll-content {
+  height: 800px; 
+}*/
+
+.location-container .row{
+  display: flex;
+  justify-content: center;  
+}
+
+.nation{
+  border: none;
+  text-align: center !important;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  background-color: goldenrod;
+  color: #fff;
+
+  
+}
+
+
+
+.location-box {
+  background-color: goldenrod; /* Light gray background */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Optional: rounded corners */
+  margin-right: 10px; /* Space between items */
+  flex: 1; /* Grow to take available space */
+  box-shadow: 0 4px 8px blue;
+
+}
+
+.contents {
+  margin-right: 10px; /* Space between items */
+  flex: 2; /* Grow to take available space */
+}
+
+.smart-button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.smart-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+.location-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+.location-container:hover{
+  border: 2px solid #0056b3;
+}
+.row {
+  display: flex;
+  align-items: flex-start; /* Align items at the start */
+}
+
+.col-md-2,
+.col-md-8 {
+  padding: 10px;
+}
+
+.location-box {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; 
+  margin-top: 10px; 
+}
+
+.nation {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nation:hover {
+  background-color: #0056b3; 
+}
+
+.con p {
+  margin: 0;
+}
+
+.smart-button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.smart-button:hover {
+  background-color: #0056b3;
+}
+.nation-btn{
+  margin-top: 20px;
+}
+.nation-btn .btn{
+  background-color: goldenrod;
+}

@@ -4,9 +4,6 @@ import React, { useEffect } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 
-
-
-
 import "./App.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,8 +18,8 @@ import {Home,Contact,Flight,Services,Abroad,Tours,About,VisaDetailPage} from "./
 
 
 const App = () => {
-  useEffect(()=>{
-    AOS.init({duration:2000});
+  useEffect(()=>{ 
+    AOS.init({duration:2000}); 
 }, []);
 
   return (

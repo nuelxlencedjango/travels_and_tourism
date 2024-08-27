@@ -38,7 +38,7 @@ const Navbar = () => {
             subItems: [
                 {link: "Service 1", path: "/service1"},
                 {link: "Service 2", path: "/service2"},
-                // Add more sub-items as needed
+               
             ]
         },
         {link: "About", path:"/about"},
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center text-base gap-8">
                     <Link to="/" className="text-2xl font-semibold flex items-center space-x-3">
                        
-                        <span className="text-[#263238]">Raddotech</span>
+                        <span className="text-[#263238]">Reachgold Travels</span>
                     </Link>
 
                     {/* nav items for large screens */}

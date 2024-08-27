@@ -43,7 +43,7 @@ const Navs = () => {
                     <div className="dropdown-content">
                         <NavLink to="/tour1">Tour 1</NavLink>
                         <NavLink to="/tour2">Tour 2</NavLink>
-                        {/* Add more tour sub-items as needed */}
+                      
                     </div>
                 </li>
                 
