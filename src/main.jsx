@@ -1,9 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-//may be removed;added it to check something
-
-
 
 import './index.css'
 
